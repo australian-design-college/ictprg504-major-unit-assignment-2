@@ -1,0 +1,34 @@
+{
+  "name": "ictprg504-major-unit-assignment-2",
+  "version": "1.0.0",
+  "description": "A database and server (helper files for the ICTPRG504 Major Unit Assignment)",
+  "main": "index.js",
+  "scripts": {
+    "watch": "nodemon index"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/australian-design-college/ictprg504-major-unit-assignment-2.git"
+  },
+  "keywords": [],
+  "author": "Australian Design College",
+  "license": "UNLICENSED",
+  "engines": {
+    "node": "8.9.0",
+    "npm": "5.5.1"
+  },
+  "dependencies": {
+    "babel-core": "~6.26.0",
+    "babel-plugin-module-resolver": "~3.0.0",
+    "babel-polyfill": "~6.26.0",
+    "babel-preset-env": "~1.6.1",
+    "babel-preset-stage-3": "~6.24.1",
+    "babel-register": "~6.26.0",
+    "dotenv": "~4.0.0",
+    "express": "~4.16.2",
+    "mysql2": "~1.5.1"
+  },
+  "devDependencies": {
+    "nodemon": "~1.14.11"
+  }
+}
